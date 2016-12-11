@@ -13,6 +13,7 @@ function MainMenu:new(stack)
 	local helptext =
 	"How to play:\n"..
 	"- Left-click to move or attack\n"..
+	"- Right-click to place a crate\n"..
 	"- E to heal\n"..
 	"- Don't die"
 	self.help = love.graphics.newText(helpFont)
