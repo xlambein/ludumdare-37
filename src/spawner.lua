@@ -24,7 +24,6 @@ end
 local function pickNeighbor(map, entity)
 	local neighbors = {}
 	for _, neighbor in pairs(map:neighbors(map:coordinatesToTile(entity))) do
-		print(neighbor.x, neighbor.y)
 		if map:isWalkable(neighbor) and not map:isTileOccupied(neighbor) then
 			table.insert(neighbors, neighbor)
 		end
