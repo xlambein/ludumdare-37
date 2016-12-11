@@ -1,4 +1,4 @@
-# ludumdare-37
+# Luhacked and slash
 My compo entry for Ludum Dare 37.
 
 This project is not finished, and it will probably never be.  I wasn't very
